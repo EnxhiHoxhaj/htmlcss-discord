@@ -14,6 +14,7 @@ header {
 
 }
 
+
 nav {
     width: 100%;
     display: flex;
@@ -37,7 +38,6 @@ a{
 }
 
 .logo, #lista, .clicca.accesso {
-    padding: 5px;
     display: flex;
     align-items: center;
 }
@@ -87,25 +87,27 @@ a{
     color: black;
     border-radius: 25px;
     border: solid 0px;
-    padding: 10px 35px;
+    padding: 10px 30px;
     font-size: 15px;
-}  
+} 
 
-#clictestata {
+.clicca.nero{
+    background-color: black;
+    color: white;
+}
+
+.clicca.azzurro {
+    background-color: rgb(164, 184, 250);
+    margin-bottom: 80px;
+}
+
+#per-scaricare {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.clicca.accesso {
-    padding: 5px 20px;
-}
-
-.clicca.nero{
-    background-color: black;
-    color: white;
-}
 .grafica {
     width: 100%;
     background-color: white;
@@ -119,8 +121,6 @@ a{
 
 .grafica.destra {
     background-color: rgb(218, 218, 218);
-
-
 }
 
 .img{
@@ -148,60 +148,93 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
- }
- .img.centrale {
-    width: 50%;
  }
 
-#piepagina {
+ .img.centrale {
+    width: 80%;
+}
+
+#invito{
+    font-size: 23px;
+    background-image: url(img/stars.svg);
+    background-size: 100%;
+    padding: 15px;
+}
+footer{
     width: 100%;
-    height: 580px;
-    background-color: black;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+}
+#piepagina {
+    width: 90%; 
 } 
 
  #footer-prima-parte {
-    height: 500px;
-    border-bottom: solid rgb(156, 156, 156) 1px;
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
  }
 
- #footer-prima-parte > div{
-    height: 92%;
-    margin-top: 10px;
+#social h2 {
+    color: rgb(164, 184, 250);
+    margin-bottom: 25px;
+}
+
+ #social {
+    width: 10%;
+    margin-right: 30px;
  }
 
- #rosso{
-    background-color: rgb(197, 97, 97);
-    width: 25%;
-    border-style: dotted;
-    border-color: black;
- }
-.verdeacqua {
+#bandiere {
+    width: 15%;
+}
+
+#lingua {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    border: none;
+    text-align: center;
+
+}
+
+.link-footer {
     width: 12.5%;
-    height: 95%;
-    background-color: rgb(76, 223, 198);
-    border-style: dotted;
     border-color: white;
 }
- 
+
+#lista-footer {
+    font-size: 15px;
+    line-height: 200%;
+}
+
+.titoli-footer {
+    color: rgb(164, 184, 250);
+    list-style: none;
+}
+
+#lista-footer {
+    line-height: 200%;
+}
+
 #fine{
     display: flex;
     justify-content: center;
 }
+
+#linea-fondo {
+    display: flex;
+    justify-content: center;
+}
+hr {
+    color: lightgray;
+}
 .footer-seconda-parte {
-    background-color: rgb(159, 236, 159);
-    width: 75%;
-    height: 60px;
     display: flex;
     justify-content: space-between;
-    align-items: center ;  
+    align-items: center ;
+    padding: 30px 0 70px;
+      
 }
     
-#logo {
-    background-color: rgb(197, 97, 97) ;
-    padding: 2px;
-    border: dotted black;
-}
-
